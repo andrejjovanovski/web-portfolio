@@ -3,7 +3,7 @@ import workImg from '../assets/workImg.jpeg'
 import portfolioImg from '../assets/portfolio.png'
 import libraryImg from '../assets/library.png'
 import labsImg from '../assets/labs.png'
-import carryLogisticsLogo from '../assets/logo-text-transparent-2000x2000.png'
+import carryLogistics from '../assets/carrylogistics.png'
 import breatheMkPicture from '../assets/breathemk.png'
 
 const Work = () => {
@@ -71,7 +71,7 @@ const Work = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${carryLogisticsLogo})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style={{ backgroundImage: `url(${carryLogistics})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
