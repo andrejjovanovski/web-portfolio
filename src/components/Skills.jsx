@@ -5,10 +5,12 @@ import Javascript from '../assets/javascript.png'
 import reactLogo from '../assets/react.png'
 import Tailwind from '../assets/tailwind.png'
 import PHP from '../assets/new-php-logo.png'
-import SQL from '../assets/Sql_data_base_with_logo.png'
+import SQL from '../assets/5968313.png'
 import Bootstrap from '../assets/Bootstrap_logo.svg'
 import sass from '../assets/1280px-Sass_Logo_Color.svg.png'
+import laravel from '../assets/Laravel-Logo.wine.png'
 import github from '../assets/github.png'
+import jquery from '../assets/jquery-logo-CFE6ECE363-seeklogo.com.png'
 
 
 const Skills = () => {
@@ -54,13 +56,21 @@ const Skills = () => {
                         <img src={reactLogo} alt="HTML icon" className='mx-auto w-20' />
                         <p className='py-4'>React</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img src={PHP} alt="HTML icon" className='mx-auto w-20' />
-                        <p className='py-4'>PHP</p>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-between'>
+                        <img src={jquery} alt="HTML icon" className='mx-auto w-20 pt-4' />
+                        <p className='py-4 text-center'>JQuery</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img src={SQL} alt="HTML icon" className='mx-auto w-20' />
-                        <p className='py-4'>SQL</p>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-between'>
+                        <img src={PHP} alt="HTML icon" className='mx-auto w-20 pt-4' />
+                        <p className='py-4 text-center'>PHP</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-between'>
+                        <img src={laravel} alt="HTML icon" className='mx-auto w-20 pt-4' />
+                        <p className='py-4 text-center'>Laravel</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-between'>
+                        <img src={SQL} alt="HTML icon" className='mx-auto w-20 pt-4' />
+                        <p className='py-4 text-center'>SQL</p>
                     </div>
                 </div>
             </div>

@@ -1,12 +1,14 @@
 import React from 'react'
 import workImg from '../assets/workImg.jpeg'
-import realEstateImg from '../assets/realestate.jpg'
+import portfolioImg from '../assets/portfolio.png'
+import libraryImg from '../assets/library.png'
+import labsImg from '../assets/labs.png'
+import carryLogisticsLogo from '../assets/logo-text-transparent-2000x2000.png'
+import breatheMkPicture from '../assets/breathemk.png'
 
 const Work = () => {
     return (
 
-        // <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
-        // <div className='flex flex-col justify-center items-center w-full h-full'>
         <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center h-full w-full'>
                 <div className='pb-8'>
@@ -15,112 +17,92 @@ const Work = () => {
                 </div>
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                    <div style={{ backgroundImage: `url(${workImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style={{ backgroundImage: `url(${labsImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React Js Application
+                                Brainster Labs
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/andrejjovanovski/brainsterLabs">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${realEstateImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style={{ backgroundImage: `url(${portfolioImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React Js Application
+                                Web Portfolio
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/andrejjovanovski/web-portfolio">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${workImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style={{ backgroundImage: `url(${libraryImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React Js Application
+                                Brainster Library
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                {/* <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-                                <a href="/">
+                                </a> */}
+                                <a href="https://github.com/andrejjovanovski/brainster-library">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${realEstateImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style={{ backgroundImage: `url(${carryLogisticsLogo})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React Js Application
+                                Carry Logistics
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                {/* <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-                                <a href="/">
+                                </a> */}
+                                <a href="https://github.com/andrejjovanovski/carry-logistics">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div style={{ backgroundImage: `url(${workImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style={{ backgroundImage: `url(${breatheMkPicture})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React Js Application
+                            <span className='text-2xl font-bold text-white tracking-wider text-center'>
+                                BreatheMK
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                </a>
                             </div>
                         </div>
                     </div>
 
-                    <div style={{ backgroundImage: `url(${realEstateImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                        {/* hover */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React Js Application
-                            </span>
-                            <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
