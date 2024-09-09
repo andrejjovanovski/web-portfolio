@@ -1,5 +1,4 @@
 import React from 'react'
-import workImg from '../assets/workImg.jpeg'
 import portfolioImg from '../assets/portfolio.png'
 import libraryImg from '../assets/library.png'
 import labsImg from '../assets/labs.png'
@@ -25,10 +24,7 @@ const Work = () => {
                                 Brainster Labs
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-                                <a href="https://github.com/andrejjovanovski/brainsterLabs">
+                                <a href="https://github.com/andrejjovanovski/brainsterLabs" target='_blank' rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -44,9 +40,9 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                                 </a>
-                                <a href="https://github.com/andrejjovanovski/web-portfolio">
+                                <a href="https://github.com/andrejjovanovski/web-portfolio" target='_blank' rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -61,10 +57,7 @@ const Work = () => {
                                 Brainster Library
                             </span>
                             <div className='pt-8 text-center'>
-                                {/* <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a> */}
-                                <a href="https://github.com/andrejjovanovski/brainster-library">
+                                <a href="https://github.com/andrejjovanovski/brainster-library" target='_blank' rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -74,15 +67,13 @@ const Work = () => {
                     <div style={{ backgroundImage: `url(${carryLogistics})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* hover */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                        <div className='opacity-0 group-hover:opacity-100 text-center px-2'>
+                            <span className='text-2xl font-bold text-white tracking-wider text-center'>
                                 Carry Logistics
                             </span>
+                            <p className='text-center text-sm'>This website is still in the proccess of developing!</p>
                             <div className='pt-8 text-center'>
-                                {/* <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a> */}
-                                <a href="https://github.com/andrejjovanovski/carry-logistics">
+                                <a href="https://github.com/andrejjovanovski/carry-logistics" target='_blank' rel="noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -91,13 +82,15 @@ const Work = () => {
                     <div style={{ backgroundImage: `url(${breatheMkPicture})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* hover */}
-                        <div className='opacity-0 group-hover:opacity-100'>
+                        <div className='opacity-0 group-hover:opacity-100 text-center px-2'>
                             <span className='text-2xl font-bold text-white tracking-wider text-center'>
                                 BreatheMK
                             </span>
+                            <p className='text-center text-sm'>This website is still in the proccess of developing!</p>
+
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <a href="https://air.tetova.gov.mk/" target='_blank' rel="noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                                 </a>
                             </div>
                         </div>
