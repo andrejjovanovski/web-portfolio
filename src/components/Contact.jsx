@@ -34,8 +34,6 @@ export const Contact = () => {
                         setEmail("")
                         setMessage("")
 
-                        console.log(e)
-
                         addNotification({
                             title: 'Form Validation',
                             subtitle: 'You message has been succesffully sent',
