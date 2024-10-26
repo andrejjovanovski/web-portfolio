@@ -11,11 +11,12 @@ import sass from '../assets/1280px-Sass_Logo_Color.svg.png'
 import laravel from '../assets/Laravel-Logo.wine.png'
 import github from '../assets/github.png'
 import jquery from '../assets/jquery-logo-CFE6ECE363-seeklogo.com.png'
+import filament from '../assets/filament.png'
 
 
 const Skills = () => {
     return (
-        <div name='skills' className='w-full bg-[#0a192f] text-gray-300'>
+        <div name='skills' className='w-full bg-[#0a192f] text-gray-300 h-screen'>
             {/* container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
@@ -71,6 +72,10 @@ const Skills = () => {
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-between'>
                         <img src={SQL} alt="HTML icon" className='mx-auto w-20 pt-4' />
                         <p className='py-4 text-center'>SQL</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 flex flex-col justify-between'>
+                        <img src={filament} alt="HTML icon" className='mx-auto w-20 pt-4' />
+                        <p className='py-4 text-center'>FilamentPHP</p>
                     </div>
                 </div>
             </div>
