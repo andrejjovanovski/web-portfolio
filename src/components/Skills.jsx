@@ -16,7 +16,7 @@ import filament from '../assets/filament.png'
 
 const Skills = () => {
     return (
-        <div name='skills' className='w-full bg-[#0a192f] text-gray-300 h-screen'>
+        <div name='skills' className='w-full bg-[#0a192f] text-gray-300 pt-[80px] min-h-screen'>
             {/* container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
